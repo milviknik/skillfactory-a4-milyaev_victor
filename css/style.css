@@ -626,13 +626,17 @@ footer div {
 	flex-wrap: wrap;
     max-width: 1248px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
 	align-items: center;
 }
 footer div p {
-	width: 84%;
+	width: 70%;
 	font-size: 16px;
 	color: #b8b8b8;
+}
+
+footer div a {
+	margin: 0 5px;
 }
 
 /*---------------RESPONSIVE_1275---------------*/
@@ -800,6 +804,22 @@ footer div p {
 		justify-content: center;
 	}	
 
+	footer {
+		min-height: 130px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	footer div {
+		min-height: 130px;
+    	justify-content: center;
+	}
+
+	footer div p {
+		width: 100%;
+		text-align: center;
+	}
+
 }
 
 /*---------------RESPONSIVE_620---------------*/
@@ -861,21 +881,5 @@ footer div p {
 
 	.form-contacts div:nth-of-type(2) p {
 		margin-right: 20px;
-	}
-
-	footer {
-		min-height: 130px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	footer div {
-		min-height: 130px;
-    	justify-content: center;
-	}
-
-	footer div p {
-		width: 100%;
-		text-align: center;
 	}
 }
