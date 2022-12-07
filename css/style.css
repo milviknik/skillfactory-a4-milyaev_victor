@@ -231,7 +231,9 @@ main {
 
 .feature-products hr {
 	width: 130px;
-	border: solid 2px #ff2d2d;
+    background-color: #ff2d2d;
+    height: 2px;
+	border: none;
 }
 
 .feature-products nav ul {
@@ -300,10 +302,12 @@ main {
 
 .meet-our-team hr {
 	width: 130px;
-	border: solid 2px #ff2d2d;
 	margin-left: 0px;	
     margin-top: 30px;
     margin-bottom: 65px;
+    background-color: #ff2d2d;
+    height: 2px;
+	border: none;
 }
 
 .meet-our-team-flex {
@@ -478,9 +482,11 @@ main {
 
 .get-in-touch hr {
 	width: 130px;
-	border: solid 2px #ff2d2d;
 	margin-left: 0px;
 	margin-bottom: 75px;
+    background-color: #ff2d2d;
+    height: 2px;
+	border: none;
 }
 
 .get-in-touch-bg {
